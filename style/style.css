@@ -4,7 +4,7 @@
 /*GENERAL*/
 nav{
     background-color: transparent;
-    padding: 20px;
+    padding: 10px;
 }
 
 *{
@@ -48,6 +48,7 @@ nav{
     height: 1000px;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .first_buttons{
     display: flex;
@@ -261,6 +262,7 @@ nav{
     background-image: url(../assets/services.jpg);
     width: 100%;
     height: 1000px;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -280,6 +282,7 @@ nav{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -357,7 +360,7 @@ nav{
     flex-wrap: wrap;
     width: 100%;
     border-top: #F5FDFF 3px solid;
-    height: 750px;
+    height: 900px;
     background: linear-gradient(to bottom, #236C99, #073255);
 }
 .skills{
@@ -389,10 +392,10 @@ nav{
 }
 .content_div1{
     display: flex;
-    align-items: initial;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
+    width: 300px;
     height: 270px;
     padding: 15px;
 }
